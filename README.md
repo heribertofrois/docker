@@ -30,3 +30,7 @@ docker build -t heribertofrois/desafio-go-full-cycle:latest .
 docker push  heribertofrois/desafio-go-full-cycle:latest
 # Passo 3: Executar o container
 docker run --rm heribertofrois/desafio-go-full-cycle:latest
+# Passo 4: Pull
+docker pull heribertofrois/desafio-go-full-cycle
+# link dockerhub
+https://hub.docker.com/r/heribertofrois/desafio-go-full-cycle
