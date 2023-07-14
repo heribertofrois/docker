@@ -23,17 +23,10 @@ Compartilhe o link do repositório do Git remoto para corrigirmos seu projeto.
 
 Divirta-se!
 
+
 # Passo 1: Build 
-```
-docker build -t heribertofrois/desafio-go-full-cycle .
-```
-
-# Passo 2: Pull 
-```
-docker pull heribertofrois/desafio-go-full-cycle
-```
-
+docker build -t heribertofrois/desafio-go-full-cycle:latest .
+# Passo 2: push
+docker push  heribertofrois/desafio-go-full-cycle:latest
 # Passo 3: Executar o container
-```
-docker run --rm heribertofrois/desafio-go-full-cycle
-```
+docker run --rm heribertofrois/desafio-go-full-cycle:latest
